@@ -1,0 +1,63 @@
+/* Test: This will turn your URL/Address bar bright red */
+#urlbar {
+    background-color: red !important;
+}
+
+/* Hide Copy Link to Highlight & Select All variants */
+#context-copylinktopage,
+#context-selectall, 
+#context-page-selectall {
+    display: none !important;
+}
+
+/* Hide Link Options (Bookmark, Save, Copy, and Clean Link) */
+#context-bookmarklink, 
+#context-savelink, 
+#context-copylink, 
+#context-copycleanlink,
+#context-copyunclutteredlink {
+    display: none !important;
+}
+
+/* Hide Page Options (Save and View Source) */
+#context-savepage,
+#context-viewsource {
+    display: none !important;
+}
+
+/* Hide Image Specifics (Search with Lens and Background) */
+#context-searchselect,
+#context-contentselectsearch,
+#context-inspect-a11y,
+#context-inspect {
+    display: none !important;
+}
+
+/* ---------Remove Set Image as Desktop Background and the Separator Lines ---------*/
+#context-sendimage, 
+#context-setDesktopBackground,
+#context-sep-setbackground {
+    display: none !important;
+}
+
+/* --- FIX: Specific selectors for Preview (Peek) and Clean Link --- */
+
+/* Hide Preview Link (Peek) */
+menuitem#context-peek,
+#context-peek {
+    display: none !important;
+}
+
+/* Hide Copy Clean Link / Copy Link Without Site Tracking */
+menuitem#context-copycleanlink,
+#context-copycleanlink,
+#context-copyunclutteredlink,
+menuitem[label*="Clean"],
+menuitem[label*="Tracking"] {
+    display: none !important;
+}
+
+/* Hide Search Image with Google Lens and related menu items */
+#context-search-select {
+    display: none !important;
+}
