@@ -10,6 +10,8 @@ remove those unwanted option when rightclick
 
     Search for: toolkit.legacyUserProfileCustomizations.stylesheets
 
+    (maybe need to change to boolean ?? )
+
     Double-click it (or click the toggle button) to set it to true.
 
 2.The Setup
@@ -17,8 +19,12 @@ remove those unwanted option when rightclick
     Open about:config and set toolkit.legacyUserProfileCustomizations.stylesheets to true.
     
     Go to about:support. Find Profile Folder and click Open Folder.
+
+    (maybe can't find the cause you using (or used to) multi profiles?? 
+        -> NUKE OPTION !!! : search profiles.ini whole PC. 
+        -> Inside Profiles/One-of-these-are-default-profile/
     
-    Create a new folder named chrome.
+    Create a new folder named chrome inside the profile folder.
 
     Inside chrome, create a text file named userChrome.css.
 
